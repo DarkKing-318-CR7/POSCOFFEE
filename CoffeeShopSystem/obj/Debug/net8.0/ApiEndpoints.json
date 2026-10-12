@@ -1,0 +1,92 @@
+[
+  {
+    "ContainingType": "CoffeeShopSystem.Controllers.IngredientController",
+    "Method": "AddIngredient",
+    "RelativePath": "api/Ingredient/add-ingredient",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ingredientDto",
+        "Type": "CoffeeShopSystem.ViewModels.CreateIngredientDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CoffeeShopSystem.Controllers.IngredientController",
+    "Method": "AddStockEntry",
+    "RelativePath": "api/Ingredient/add-stock-entry",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stockEntryDto",
+        "Type": "CoffeeShopSystem.ViewModels.CreateStockEntryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CoffeeShopSystem.Controllers.IngredientController",
+    "Method": "DeleteIngredient",
+    "RelativePath": "api/Ingredient/delete-ingredient/{ingredientId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ingredientId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CoffeeShopSystem.Controllers.IngredientController",
+    "Method": "DeleteStockEntry",
+    "RelativePath": "api/Ingredient/delete-stock-entry/{stockEntryId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stockEntryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CoffeeShopSystem.Controllers.IngredientController",
+    "Method": "GetIngredientById",
+    "RelativePath": "api/Ingredient/get-ingredient/{ingredientId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ingredientId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CoffeeShopSystem.Controllers.IngredientController",
+    "Method": "GetStockEntry",
+    "RelativePath": "api/Ingredient/get-stock-entry",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
